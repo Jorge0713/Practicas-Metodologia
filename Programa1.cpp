@@ -5,10 +5,10 @@ int main()
     int opcion;
     while (opcion != 0)
     {
-        cout << "====Menu==== " << endl;
-        cout << "1) Torta " << endl;
-        cout << "2) Palomitas " << endl;
-        cout << "3) Agua " << endl;
+        cout << "====Menu====" << endl;
+        cout << "1) Torta" << endl;
+        cout << "2) Palomitas" << endl;
+        cout << "3) Agua" << endl;
         cout << "Seleccione el producto: ";
         cin >> opcion;
         if (opcion == 1)
