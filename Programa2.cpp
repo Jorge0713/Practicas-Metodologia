@@ -11,17 +11,19 @@ int main()
         cout << "3) Agua " << endl;
         cout << "Seleccione el producto: ";
         cin >> opcion;
-        if (opcion == 1)
+        switch (opcion)
         {
+        case 1:
             cout << "Torta:$35\n";
-        }
-        else if (opcion == 2)
-        {
+            break;
+        case 2:
             cout << "Palomitas:$10\n";
-        }
-        else
-        {
+            break;
+        case 3:
             cout << "Agua:$25\n";
+            break;
+        default:
+            break;
         }
     }
 
